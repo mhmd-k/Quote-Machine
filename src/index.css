@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#quote-box {
+  padding: 40px;
+  background-color: white;
+  margin: 0 15px;
+  width: calc(100% - 20px);
+  max-width: 550px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#text {
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+}
+#author {
+  text-align: end;
+  padding: 10px 0;
+}
+.bottom {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#tweet-quote {
+  color: white;
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+}
+#new-quote {
+  color: white;
+  height: 100%;
+  border-radius: 3px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+.rights {
+  padding-top: 20px;
+  color: white;
+  font-size: 12px;
+}
